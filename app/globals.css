@@ -322,6 +322,26 @@
   animation: fadeIn 0.3s ease-in-out;
 }
 
+body {
+  background-image: url('/pattern1.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat; /* Allows the image to repeat when scrolling */
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+
+.card-interviewer {
+  background-color: white; /* Keeps card separate */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
 @keyframes fadeIn {
   from {
     opacity: 0;
