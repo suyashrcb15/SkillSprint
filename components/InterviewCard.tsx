@@ -5,7 +5,7 @@ import {Button} from "@/components/ui/button";
 import Link from "next/link";
 import DisplayTechIcons from "@/components/DisplayTechIcons";
 
-const InterviewCard = ({interviewId, userId, role, type, techstack, createdAt}: InterviewCardProps) => {
+const InterviewCard = ({id, userId, role, type, techstack, createdAt}: InterviewCardProps) => {
     const feeback=null as Feedback | null;
     const normalizedType=/mix/gi.test(type)? 'Mixed': type;
     const formattedDate=dayjs(feeback?.createdAt || createdAt || Date.now()).format('MMM D, YYYY');
@@ -48,8 +48,8 @@ const InterviewCard = ({interviewId, userId, role, type, techstack, createdAt}: 
                         <Link
                             href={
                                 feeback
-                                    ? `/interview/${interviewId}/feedback`
-                                    : `/interview/${interviewId}`
+                                    ? `/interview/${id}/feedback`
+                                    : `/interview/${id}`
                             }
                         >
                             {feeback? "Check Feedback" : "View Interview"}
