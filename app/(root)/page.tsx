@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import { Button } from "@/components/ui/button";
 import InterviewCard from "@/components/InterviewCard";
+import AudioPlayer from "@/components/AudioPlayer";
 
 import { getCurrentUser } from "@/lib/actions/auth.action";
 import {
@@ -23,6 +24,9 @@ async function Home() {
 
     return (
         <>
+            {/* 🎵 Background Sound */}
+            <AudioPlayer />
+
             <section className="card-cta">
                 <div className="flex flex-col gap-6 max-w-lg text-primary-200">
                     <h2>Get Interview-Ready with AI-Powered Practice & Feedback</h2>
@@ -59,15 +63,13 @@ async function Home() {
                             Perfect for interview prep and skill enhancement.
                         </p>
                         <Link href="/assessments">
-                            <button
-                                className="btn-primary max-sm:w-full">
+                            <button className="btn-primary max-sm:w-full">
                                 Start Practicing →
                             </button>
                         </Link>
                     </div>
                 </div>
             </section>
-
 
             <section className="flex flex-col gap-6 mt-8">
                 <h2 className="text-primary-200">Your Interviews</h2>
