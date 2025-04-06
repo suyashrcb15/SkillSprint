@@ -164,16 +164,17 @@ const Agent = ({
                 </div>
 
                 {/* User Profile Card */}
-                <div className="card-border">
-                    <div className="card-content">
+                {/* User Profile Card */}
+                <div className="call-view">
+                    <div className="card-interviewer">
                         <Image
                             src="/hu.png"
                             alt="profile-image"
-                            width={539}
-                            height={539}
-                            className="rounded-full object-cover size-[120px]"
+                            width={65}
+                            height={54}
+                            className="rounded-full object-cover w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32"
                         />
-                        <h3>{userName}</h3>
+                        <h3 className="text-lg md:text-xl font-semibold">{userName}</h3>
                     </div>
                 </div>
             </div>
