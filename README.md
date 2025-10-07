@@ -29,13 +29,32 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deploy on Render
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The easiest way to deploy your Next.js app is to use the [Render Platform](https://skillsprint-vzgq.onrender.com/) from the creators of Next.js.
 
 
-## Demo Link
+## Project Visuals
 
-Skill Sprint [https://skillsprint-vzgq.onrender.com/]
+### Project Dashboard
+![Frontend UI](<img width="1920" height="999" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/73c217b4-70d4-4bd1-bd77-4c9e395b6f02" />
+)
+
+### Generated Interview Section
+![Generated Interview](<img width="1920" height="1021" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/6fc2ce00-1eec-423f-9e4e-451af579689a" />
+)
+
+### Interview FeedBack Page
+![Interview FeedBack](<img width="1920" height="1044" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/db78c104-c948-4773-83a5-289b9bba2c40" />
+)
+
+### Assessment Page
+![Assessment Page](<img width="1920" height="1033" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/ad07ff55-57c0-4428-93c3-832d5698ebe6" />
+)
+### Assessment FeedBack Page
+![Assessment FeedBack](<img width="1920" height="1018" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/26e7929f-3d05-423d-adce-73e6a494b87d" />
+)
+### Generate Your own Interview
+![Own Interview Page](<img width="1920" height="1024" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/97c9d4a7-d429-43fb-a8ce-46ec29e5988c" />
+)
+
